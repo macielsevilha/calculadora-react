@@ -5,7 +5,9 @@
 }
 
 .calculator {
-    width: 300px;
-    height: 500px;
-    background-color: red;
+    width: 320px;
+    height: 235px;
+    border-radius: 5px;
+    grid-template-columns: repeat(4, 30%);
+    grid-template-rows: 48px 48px 48px 48px 48px;
 }

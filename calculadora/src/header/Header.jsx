@@ -18,7 +18,7 @@ export default class Header extends Component {
                        <li><a href="">Sobre</a></li>
                    </ul>
                </div>
-               <div className="button">
+               <div className="buttonEntrar">
                    <Button label="Entrar"/>
                </div>
             </div>
