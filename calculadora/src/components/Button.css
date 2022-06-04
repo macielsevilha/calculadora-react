@@ -1,0 +1,10 @@
+.button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: rgb(155, 11, 47);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.buttonPers {}

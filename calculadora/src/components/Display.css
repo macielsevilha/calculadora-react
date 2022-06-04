@@ -1,0 +1,8 @@
+.header,
+.main {
+    display: flex;
+}
+
+.nav ul li {
+    display: inline;
+}
