@@ -1,13 +1,15 @@
 .main {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
 .calculator {
+    display: grid;
     width: 320px;
     height: 235px;
     border-radius: 5px;
     grid-template-columns: repeat(4, 30%);
-    grid-template-rows: 48px 48px 48px 48px 48px;
+    grid-template-rows: 148px 48px 48px 48px 48px 48px;
 }

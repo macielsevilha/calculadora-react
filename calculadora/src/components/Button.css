@@ -26,7 +26,15 @@
 }
 
 .button.triple {
-    grid-column: span 3;
+    grid-column: span 2;
+}
+
+.button.clear {
+    color: red;
+}
+
+.button.color {
+    color: rgb(26, 138, 16);
 }
 
 .button.operation:active {

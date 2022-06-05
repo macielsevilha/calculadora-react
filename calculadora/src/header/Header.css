@@ -3,6 +3,7 @@
 }
 
 .header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -20,6 +21,7 @@
 }
 
 .nav ul li {
+    display: inline;
     padding: 10px;
 }
 
