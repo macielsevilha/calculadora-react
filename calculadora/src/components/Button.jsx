@@ -9,6 +9,7 @@ export default props => {
     classes += props.triple ? 'triple ' : ''
     classes += props.clear ? 'clear' : ''
     classes += props.color ? 'color ' : ''
+    classes +=props.ground ? 'ground ' : ''
 
     return (
         <button 

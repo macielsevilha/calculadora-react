@@ -1,11 +1,16 @@
 :root {
     --bd-button: #f0f0f0;
-    --border-button: solid 1px #800;
+    --border-button: solid 1px rgb(109, 109, 109);
 }
 
 .buttonEntrar button {
     width: 100px;
     height: 40px;
+    background-color: rgb(105, 105, 143);
+    border: none;
+    border-radius: 20px;
+    color: #f0f0f0;
+    font-size: 17px;
 }
 
 .button {
@@ -39,4 +44,9 @@
 
 .button.operation:active {
     background-color: #fa8231cc;
+}
+
+.button.ground {
+    background-color: rgb(26, 138, 16);
+    color: #FFF;
 }

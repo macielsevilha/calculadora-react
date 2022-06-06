@@ -1,6 +1,6 @@
 .display {
     display: grid;
-    background-color: #ccc;
+    background-color: #000c;
     grid-column: 4 span;
     display: flex;
     justify-content: flex-end;
@@ -8,4 +8,5 @@
     padding: 20px;
     font-size: 2.1em;
     overflow: hidden;
+    color: #fff;
 }

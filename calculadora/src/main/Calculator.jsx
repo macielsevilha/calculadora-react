@@ -4,7 +4,7 @@ import Display from "../components/Display";
 import './Calculator.css'
 
 const initialState = {
-  displayValue: '100',
+  displayValue: '0',
   clearDisplay: false,
   operation: null,
   values: [0, 0],
@@ -23,21 +23,21 @@ export default class Calculator extends Component {
 }
 
 clearMemory() {
-   alert("Jilvania é atentada na escola!")
+  this.setState({ ...initialState })
 }
 
 setOperation(operation) {
-  console.log(operation)
+  
 }
 addDigit(n) {
-  console.log(n)
+  n = n.displayValue[1]
 }
   render() {
       return(
          <div className="main">
             <div className="calculator">
             <Display value={this.state.displayValue}/>
-              <Button label="AC" click={this.clearMemory} double clear />
+              <Button label="AC" click={this.clearMemory} double clear operation />
               <Button label="%" click={this.setOperation} operation color />
               <Button label="/" click={this.setOperation} operation color />
               <Button label="7" click={this.addDigit} />
@@ -54,7 +54,8 @@ addDigit(n) {
               <Button label="+" click={this.setOperation} operation  color />
               <Button label="0" click={this.addDigit} />
               <Button label="." click={this.addDigit}/>   
-              <Button label="=" click={this.setOperation} triple />   
+              <Button label="," click={this.addDigit}/>   
+              <Button label="=" click={this.setOperation} ground />   
             </div>
          </div>
       )

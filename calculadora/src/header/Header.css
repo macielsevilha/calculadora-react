@@ -1,7 +1,3 @@
-* {
-    margin: 0;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -10,14 +6,20 @@
     height: 70px;
     max-width: 1000px;
     margin: auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
 }
 
 .soon {
     font-size: 1.5rem;
 }
 
+.soon {
+    color: rgb(0, 0, 0);
+}
+
 .soon span {
-    color: rgb(167, 11, 11);
+    color: aliceblue;
 }
 
 .nav ul li {
@@ -27,5 +29,5 @@
 
 .nav ul li a {
     text-decoration: none;
-    color: rgb(19, 192, 178);
+    color: rgb(7, 7, 7);
 }
