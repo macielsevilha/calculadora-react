@@ -14,12 +14,13 @@ const initialState = {
 
 export default class Calculator extends Component {
  
-  state = {...initialState}
+  state = { ...initialState }
 
   constructor(props) {
     super(props)
     this.clearMemory = this.clearMemory.bind(this)
- 
+    this.setOperation = this.setOperation.bind(this)
+    this.addDigit = this.addDigit.bind(this)
 }
 
 clearMemory() {
@@ -30,7 +31,11 @@ setOperation(operation) {
   
 }
 addDigit(n) {
-  n = n.displayValue[1]
+  
+ this.setState({
+   displayValue: n
+ })
+
 }
   render() {
       return(
