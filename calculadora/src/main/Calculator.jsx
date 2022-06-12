@@ -28,7 +28,7 @@ clearMemory() {
 }
 
 setOperation(operation) {
-  
+  console.log(this.value)
 }
 addDigit(n) {
   
